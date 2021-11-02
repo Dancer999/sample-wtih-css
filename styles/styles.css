@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/*   *{
+    padding: 0;
+} */
+
+body{
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active{
+color: blue;
+
+}
+a:visited{
+    color:  grey;
+}
+h1 {
+    color: blue;
+}
+.info{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.info-text{
+    margin-left: 50px;
+}
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,0.5);
+}
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    /*text-transform: capitalize; */
+    /*letter-spacing: 1px; */
+    word-spacing: 5px;
+}
+@media (max-width: 700px) {
+      .info {
+          text-align: center;
+          display: block;
+      }
+}
+.container {
+      max-width: 700px;
+      margin: auto;
+}
+/*.social {
+    background: skyblue;
+    padding: 15px 40px;
+    border: 5px solid grey;
+    margin: 20px 40px;
+    border-style: dotted;
+}
+
+.box-model >div {
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    box-sizing: border-box;
+
+}*/
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.card {
+    padding: 15px 20px;
+   max-width: 75%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.table {
+    width: 100%;
+   
+}
+.table td {
+    padding-bottom: 10px;
+}
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+/*
+.table tr:nth-child(even) {
+    background: red;
+}
+*/
+.contact h2 {
+    text-align: center;
+}
+
+.nm label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.nm input, .nm textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 10px 0px; 
+    outline: none;
+    font-family: inherit;
+}
+.row {
+ display: flex; 
+ margin-bottom: 20px;  
+}
+.row > .nm{
+    width:50%;
+    
+}
+.row > .nm:first-child {
+    margin-right: 20px;
+}
+.btn {
+  background: #111;
+  padding: 5px 20px;
+  color:#fff;
+
+}
